@@ -1,0 +1,546 @@
+BEGIN:VCALENDAR
+PRODID:-//MB Zoysia Planner//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:STANDARD
+DTSTART:19701101T020000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:CST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:CDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:05b16779-40df-4812-97ca-f53396f8dc84@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:FINAL Fall Fertilizer Window (Winterizer)
+DTSTART;TZID=America/Chicago:20251018T090000
+DTEND;TZID=America/Chicago:20251018T100000
+DESCRIPTION:Apply low-N, higher-K fertilizer (e.g., 10-0-20 or 5-10-30). Keep ≤0.5 lb N/1,000 sq ft. Mow/edge first; turf dry; then apply and water in ~1/2 inch. Avoid weed & feed.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:FINAL Fall Fertilizer Window (Winterizer) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:FINAL Fall Fertilizer Window (Winterizer) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8e21d2-24c3-457f-8d4c-08fd6e9cd9dd@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Makita XML03 – Fall Height Now
+DTSTART;TZID=America/Chicago:20251018T080000
+DTEND;TZID=America/Chicago:20251018T090000
+DESCRIPTION:Set mower to Setting 7–8 (≈2.25–2.5 in). Avoid scalping; mow dry; bag leaves.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Fall Height Now (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Fall Height Now (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d87a0de4-7414-4043-bd67-08b4dde2bb94@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Leaf Cleanup + Irrigation Taper
+DTSTART;TZID=America/Chicago:20251110T090000
+DTEND;TZID=America/Chicago:20251110T100000
+DESCRIPTION:Mulch or remove leaves. Water only 1x/week or every 10–14 days if no rain. Early-morning cycles.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Leaf Cleanup + Irrigation Taper (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Leaf Cleanup + Irrigation Taper (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3afad671-8112-40c9-b9c4-8f01868db769@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Dormant Season Check (Dec)
+DTSTART;TZID=America/Chicago:20251202T090000
+DTEND;TZID=America/Chicago:20251202T100000
+DESCRIPTION:No fert/herbicides. Irrigate only after 2–3 rainless weeks to prevent desiccation.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Dormant Season Check (Dec) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Dormant Season Check (Dec) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:68d2162e-a444-47fa-94ac-390fda823814@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Dormant Season Check (Jan)
+DTSTART;TZID=America/Chicago:20260106T090000
+DTEND;TZID=America/Chicago:20260106T100000
+DESCRIPTION:Same as December. Quick walkthrough for pooling, edges, and equipment.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Dormant Season Check (Jan) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Dormant Season Check (Jan) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bd64768-39c9-4457-a019-e723a2f76a5e@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Spring Pre‑Emergent #1 (soil ≈55°F)
+DTSTART;TZID=America/Chicago:20260220T090000
+DTEND;TZID=America/Chicago:20260220T100000
+DESCRIPTION:Apply prodiamine or dithiopyr; DRY turf; water in ~1/4 in; avoid aeration/dethatching for ~8 weeks.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Spring Pre‑Emergent #1 (soil ≈55°F) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Spring Pre‑Emergent #1 (soil ≈55°F) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9d6ab49-dbda-483f-b7f5-ce6604f0bb3e@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Pre‑Greenup Cleanup Cut + Deck Setting
+DTSTART;TZID=America/Chicago:20260405T090000
+DTEND;TZID=America/Chicago:20260405T100000
+DESCRIPTION:Makita XML03: Setting 3 (≈1.25 in). Lightly lower to remove old leaf matter, then resume seasonal height. Bag if heavy debris. Do NOT spray post‑emergent during green‑up.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Pre‑Greenup Cleanup Cut + Deck Setting (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Pre‑Greenup Cleanup Cut + Deck Setting (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:94be9480-5ea0-4d3d-86d6-ec1596ad1cb3@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Makita XML03 – Spring Height
+DTSTART;TZID=America/Chicago:20260501T080000
+DTEND;TZID=America/Chicago:20260501T090000
+DESCRIPTION:Set to Setting 4–5 (≈1.5–1.75 in). Mow weekly; never remove >1/3 of blade; mow dry.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Spring Height (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Spring Height (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b22ba4b4-cb91-49e5-998d-030924990d00@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Makita XML03 – Summer Height
+DTSTART;TZID=America/Chicago:20260601T080000
+DTEND;TZID=America/Chicago:20260601T090000
+DESCRIPTION:Set to Setting 5–6 (≈1.75–2.0 in). Raise one notch during heat/drought.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Summer Height (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Summer Height (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9e9d2cda-dbc8-49d2-9d8c-4ce813fb8c54@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Makita XML03 – Late Summer Raise
+DTSTART;TZID=America/Chicago:20260815T080000
+DTEND;TZID=America/Chicago:20260815T090000
+DESCRIPTION:Raise to Setting 6–7 (≈2.0–2.25 in) to prepare for fall.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Late Summer Raise (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Late Summer Raise (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8d98c785-34f5-4669-a580-29e25ca98918@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Makita XML03 – Early Fall Raise
+DTSTART;TZID=America/Chicago:20261001T080000
+DTEND;TZID=America/Chicago:20261001T090000
+DESCRIPTION:Raise to Setting 7–8 (≈2.25–2.5 in) for pre‑dormancy protection.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Early Fall Raise (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Early Fall Raise (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2cd8be75-cd40-4f5e-9a17-696070a9efc8@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Makita XML03 – Dormant Height
+DTSTART;TZID=America/Chicago:20261115T090000
+DTEND;TZID=America/Chicago:20261115T100000
+DESCRIPTION:Set to Setting 9–10 (≈2.75–3.0 in). Only mow for cleanup or leaf control.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Dormant Height (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Makita XML03 – Dormant Height (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:648e5d7b-f697-4453-9016-3bcba495a3fd@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Fertilize: Early Season (0.5–1.0 lb N/1,000)
+DTSTART;TZID=America/Chicago:20260510T090000
+DTEND;TZID=America/Chicago:20260510T100000
+DESCRIPTION:Slow‑release 3‑1‑2 or 4‑1‑2 style after full green‑up. Water in deeply. Add Fe/Mn if soil test suggests.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Fertilize: Early Season (0.5–1.0 lb N/1,000) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Fertilize: Early Season (0.5–1.0 lb N/1,000) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9605b6-e74d-406e-8ef2-17104c0ea9c9@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Fertilize: Summer (0.5–1.0 lb N/1,000)
+DTSTART;TZID=America/Chicago:20260630T090000
+DTEND;TZID=America/Chicago:20260630T100000
+DESCRIPTION:Slow‑release N + iron; water in. Keep mowing at Setting 5–6.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Fertilize: Summer (0.5–1.0 lb N/1,000) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Fertilize: Summer (0.5–1.0 lb N/1,000) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a0f6f306-cbdc-41dd-a13a-df21a43cdb57@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Fertilize: Late Summer (K‑forward)
+DTSTART;TZID=America/Chicago:20260810T090000
+DTEND;TZID=America/Chicago:20260810T100000
+DESCRIPTION:Apply 0.5–1.0 lb N/1,000 with higher K (e.g., 10‑0‑20 or 15‑0‑15). Complete by Aug 15.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Fertilize: Late Summer (K‑forward) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Fertilize: Late Summer (K‑forward) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:afcdf3b7-c3e6-48d0-a25b-02d05f5afb7d@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Dethatch/Aerate (if thatch > 0.5–1 in)
+DTSTART;TZID=America/Chicago:20260520T090000
+DTEND;TZID=America/Chicago:20260520T100000
+DESCRIPTION:Verticut/light dethatch, then core aerate same day. Only during active growth; avoid if pre‑emergent barrier is active.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Dethatch/Aerate (if thatch > 0.5–1 in) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Dethatch/Aerate (if thatch > 0.5–1 in) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4eaa2a27-26e2-46f9-a843-6449e690b636@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Billbug & Broadleaf Spot‑Check
+DTSTART;TZID=America/Chicago:20260525T090000
+DTEND;TZID=America/Chicago:20260525T100000
+DESCRIPTION:Inspect for billbug damage; spot‑treat broadleaf weeds after full green and below 90°F.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Billbug & Broadleaf Spot‑Check (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Billbug & Broadleaf Spot‑Check (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0245f9ce-d838-4366-8237-b11d7a843eaa@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Spring Pre‑Emergent #2 (8–10 wks later)
+DTSTART;TZID=America/Chicago:20260620T090000
+DTEND;TZID=America/Chicago:20260620T100000
+DESCRIPTION:Reapply pre‑emergent; water in ~1/4 in; avoid aeration/dethatching for ~8 weeks.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Spring Pre‑Emergent #2 (8–10 wks later) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Spring Pre‑Emergent #2 (8–10 wks later) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fb63979a-4431-48d8-a7df-3a66a344df64@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Grub/Mole Cricket Check & Treat if needed
+DTSTART;TZID=America/Chicago:20260715T090000
+DTEND;TZID=America/Chicago:20260715T100000
+DESCRIPTION:Sample 1 sq ft areas; if >6 grubs, apply labeled product & water in. Treat mole crickets if tunnels/activity.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Grub/Mole Cricket Check & Treat if needed (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Grub/Mole Cricket Check & Treat if needed (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5706097e-687a-466f-88f9-6586a9170d75@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Fall Pre‑Emergent (soil ≈70°F)
+DTSTART;TZID=America/Chicago:20260915T090000
+DTEND;TZID=America/Chicago:20260915T100000
+DESCRIPTION:Apply fall barrier for Poa annua/rescuegrass. Water in ~1/4 in.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Fall Pre‑Emergent (soil ≈70°F) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Fall Pre‑Emergent (soil ≈70°F) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4eb60cfc-f7a0-40c6-b7f4-084f3f839676@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Preventive Fungicide (if large patch history)
+DTSTART;TZID=America/Chicago:20260925T090000
+DTEND;TZID=America/Chicago:20260925T100000
+DESCRIPTION:Apply when soil temps fall below ~70°F. Follow label; avoid mowing for ~24–48 hrs.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Preventive Fungicide (if large patch history) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Preventive Fungicide (if large patch history) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8575f0-7c8f-40bc-ace0-4e15cab5844e@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Fertilizer Cutoff (Dallas)
+DTSTART;TZID=America/Chicago:20261001T090000
+DTEND;TZID=America/Chicago:20261001T100000
+DESCRIPTION:No nitrogen after this date. Keep lawn clean; light irrigation only if dry.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Fertilizer Cutoff (Dallas) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Fertilizer Cutoff (Dallas) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecddfda4-e9a4-4c3d-af92-fd3b5017f188@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Sharpen Mower Blade
+DTSTART;TZID=America/Chicago:20260501T180000
+DTEND;TZID=America/Chicago:20260501T190000
+DESCRIPTION:Sharp blades reduce fraying and disease.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5c091010-02c6-458d-a5ff-29a82fa03999@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Sharpen Mower Blade
+DTSTART;TZID=America/Chicago:20260601T180000
+DTEND;TZID=America/Chicago:20260601T190000
+DESCRIPTION:Sharp blades reduce fraying and disease.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:365e96be-ca29-4f82-bc37-6ea9790b15e0@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Sharpen Mower Blade
+DTSTART;TZID=America/Chicago:20260701T180000
+DTEND;TZID=America/Chicago:20260701T190000
+DESCRIPTION:Sharp blades reduce fraying and disease.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a51b4101-836b-4ef3-825c-4a88fe57f9e2@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Sharpen Mower Blade
+DTSTART;TZID=America/Chicago:20260801T180000
+DTEND;TZID=America/Chicago:20260801T190000
+DESCRIPTION:Sharp blades reduce fraying and disease.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Sharpen Mower Blade (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:186ca43c-70bc-4f80-86a6-9fccb0a6a6d3@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Irrigation Audit (Summer)
+DTSTART;TZID=America/Chicago:20260605T070000
+DTEND;TZID=America/Chicago:20260605T080000
+DESCRIPTION:Confirm ~1 in/week via catch-cans or rain gauge; adjust runtimes.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Irrigation Audit (Summer) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Irrigation Audit (Summer) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d04b7a30-98b5-4dc1-9a9e-f55b50639012@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Irrigation Audit (Summer)
+DTSTART;TZID=America/Chicago:20260705T070000
+DTEND;TZID=America/Chicago:20260705T080000
+DESCRIPTION:Confirm ~1 in/week via catch-cans or rain gauge; adjust runtimes.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Irrigation Audit (Summer) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Irrigation Audit (Summer) (in 2 hours)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:430b5e10-c144-49ec-b778-e6d1f734931b@mb-zoysia
+DTSTAMP:20251017T203556Z
+SUMMARY:Irrigation Audit (Summer)
+DTSTART;TZID=America/Chicago:20260805T070000
+DTEND;TZID=America/Chicago:20260805T080000
+DESCRIPTION:Confirm ~1 in/week via catch-cans or rain gauge; adjust runtimes.
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Irrigation Audit (Summer) (tomorrow)
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Irrigation Audit (Summer) (in 2 hours)
+END:VALARM
+END:VEVENT
+END:VCALENDAR
